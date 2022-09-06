@@ -1,0 +1,32 @@
+.container {
+ width: 50%;
+ background-color: pink;
+ text-align: center;
+ margin: 100px auto;
+}
+
+
+.listBox {
+  display: flex;
+}
+
+.myUL {
+  margin: auto;
+ padding: 0;
+}
+
+.myUL li {
+  padding: 12px 200px 12px 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+ cursor: pointer;
+ 
+
+}
